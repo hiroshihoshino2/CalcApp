@@ -27,8 +27,7 @@
             android:id="@+id/editText1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:digits="0123456789-."
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:maxLength="8" />
 
         <TextView
@@ -41,8 +40,7 @@
             android:id="@+id/editText2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:digits="0123456789-."
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:maxLength="8" />
 
     </LinearLayout>
